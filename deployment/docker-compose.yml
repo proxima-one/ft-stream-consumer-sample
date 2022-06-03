@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  ft-stream-consumer:
+    image: proximaone/ft-stream-consumer:${VERSION:-dev}
+    build:
+      context: ../
+      target: ${TARGET:-prod}
+    environment:
+      - MONGODB_ENDPOINT=mongodb://user:pass@mongodb:27017/fungible-tokens?authSource=admin
