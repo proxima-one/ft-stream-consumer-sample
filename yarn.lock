@@ -103,10 +103,10 @@
     bignumber.js "^9.0.1"
     long "^4.0.0"
 
-"@proximaone/stream-schema-fungible-token@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@proximaone/stream-schema-fungible-token/-/stream-schema-fungible-token-0.3.0.tgz#f866ef5c643fae6193b194cb893d31885d9e9e42"
-  integrity sha512-nm09T4CKzhK8fRJGtbopWw+cANYHClbUPp+99koqcEL1+tAgS1OuPHQrz6a28H+eaPEP+6tp6lw2E5M+OCZFcw==
+"@proximaone/stream-schema-fungible-token@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@proximaone/stream-schema-fungible-token/-/stream-schema-fungible-token-0.3.1.tgz#d4acfc139392f961a3e810cd6498037c253b7491"
+  integrity sha512-z2nlGX9bKiSTmY9edCKDtiNeaFS10RjKJxngsurYhlD+X/3v2c/+YFyF01jFhDb9yqtqvrS/VtEd3MsSrsCG0w==
   dependencies:
     "@proximaone/stream-schema-base" "^0.2.0"
 

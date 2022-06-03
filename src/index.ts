@@ -67,6 +67,7 @@ async function sinkFungibleTokenEventStream(stream: string): Promise<void> {
               spender: payload.spender,
               value: Decimal128.fromString(payload.value),
               valueOriginal: payload.value,
+              ref: payload.ref,
             }),
           );
         }
@@ -78,6 +79,7 @@ async function sinkFungibleTokenEventStream(stream: string): Promise<void> {
             to: payload.to,
             value: Decimal128.fromString(payload.value),
             valueOriginal: payload.value,
+            ref: payload.ref,
           }),
         );
       }

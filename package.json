@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@proximaone/stream-client-js": "^0.7.0",
-    "@proximaone/stream-schema-fungible-token": "^0.3.0",
+    "@proximaone/stream-schema-fungible-token": "^0.3.1",
     "lodash": "^4.17.21",
     "mongodb": "^4.3.1"
   },
